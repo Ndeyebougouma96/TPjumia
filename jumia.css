@@ -1,0 +1,218 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: sans-serif;
+}
+header{
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: orange;
+}
+#clogn{
+    color: gray;
+}
+#clogn:hover{
+    color:orange;
+}
+#clign{
+    color: gray;
+}
+#clign:hover{
+color: #0000FF;
+}
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{ width: 1300px;
+    background-color: whitesmoke;
+    display: flex;
+    gap: 450px;
+   
+  
+}
+nav a{
+ text-decoration: none;
+}
+nav div a{
+   padding: 10px 10px;
+   text-decoration: none;
+    
+}
+.milieu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:transparent;
+    margin: 10px;
+    gap: 5px;
+    height: 500px;
+    width:90%;
+    margin-left: 50px;
+   
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgba(255, 166, 0, 0.925);
+   
+}
+@media sceen and (max-width:360px)
+{
+    body{
+        width: 150px;
+        height: 200px;
+        gap: 0px;
+    
+    }
+}
+.bloc{margin: auto;
+     border-radius: 10px;
+    height: 450px;
+    width: 349px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap:90px;
+    box-sizing: border-box;
+}
+#bloc1{
+    width: 210px;
+    background-color: white;
+}
+#bloc2{
+    width: 600px;
+}
+#bloc3{
+    width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.bo{
+    background-color:white;
+    width: 100%;
+}
+.bo span{
+    margin-top: 10pxpx;
+}
+.bo p{
+    margin:10px;
+    display: flex;
+    justify-content: center;
+}
+.bloc span{
+    padding: 0 0 0 0 8px; 
+    margin: 5px;
+
+}
+#slide{
+    width: 600px;
+}
+.haut{
+    margin: 0 auto;
+    display: flex;
+    background-color:white;
+    width: 1275px;
+    height: 70px;
+    justify-content: flex-start;
+    text-align: right;
+     column-gap: 5px;
+}
+.haut .mi{
+   width: 80%;
+   display: flex;
+   justify-content: center;
+   margin-top: 15px;
+ 
+}
+.haut .ma{
+    color: black;
+     display: flex;
+     margin: 0px auto;
+     font-size: 17px;
+     margin-top: 15px;
+     width: 60%;
+     margin-right: 20px;
+ 
+}
+
+.ma .connecter{
+   height: 40px;
+    width: 100%;
+    margin-right:-20px ;
+    font-size: 15px;
+}
+.ma .aider{
+    height: 40px;
+   width: 60%;
+   margin-right:30px ;
+   font-size: 15px;
+}
+.ma a{
+ 
+    display: flex;
+    color: black;
+    margin-top: 10px;
+ text-decoration: none;
+}
+.haut img{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#int{
+    width: 400px;
+    height: 40px;  
+}
+#bnt{
+    background-color: orange;
+    height: 40px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 0 0 0 rgba(0,0,0,0.19);
+    border: 0;
+
+}
+footer{
+    height:110px ;
+    width: 79%; 
+ margin: 5px auto;
+}
+footer img{
+    height: 110px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+#bas{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.slide_Bas{
+ overflow: auto;
+ white-space: nowrap;
+}
+.bas2{
+    display: none;
+}
+.che2,
+.che1{
+    border: none;
+    background-color: transparent;
+    max-height: 50px;
+    margin: auto 0;
+ 
+}
+.che2:hover,
+.che1:hover{
+    cursor: pointer;
+}
+
