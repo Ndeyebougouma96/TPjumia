@@ -94,24 +94,25 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-
+   
 }
 .bo{
     background-color:white;
     width: 100%;
-}
-.bo span{
-    margin-top: 10pxpx;
-}
-.bo p{
-    margin:10px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    height: 48%;
+     border-radius: 10px;
+  
+}
+ .bo p{
+    display: flex;
+    margin-left: 30px;
 }
 .bloc span{
     padding: 0 0 0 0 8px; 
     margin: 5px;
-
 }
 #slide{
     width: 600px;
@@ -143,18 +144,21 @@ body{
      margin-right: 20px;
  
 }
-
 .ma .connecter{
    height: 40px;
     width: 100%;
     margin-right:-20px ;
     font-size: 15px;
-}
+     border: none;
+    background-color: white;
+}   
 .ma .aider{
     height: 40px;
-   width: 60%;
+   width: 40%;
    margin-right:30px ;
    font-size: 15px;
+     border: none;
+    background-color: white;
 }
 .ma a{
  
@@ -189,7 +193,7 @@ footer{
 footer img{
     height: 110px;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 35px;
 }
 #bas{
     display: flex;
