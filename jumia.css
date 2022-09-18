@@ -1,9 +1,17 @@
-*,*::before,*::after{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     outline: none;
     font-family: sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(255, 166, 0, 0.925);
+    width: 100%;
+    height: 100vh;
+   
 }
 header{
     background-color: orange;
@@ -30,7 +38,7 @@ main{
     box-sizing: border-box;
 
 }
-nav{ width: 1300px;
+nav{ width: 100%;
     background-color: whitesmoke;
     display: flex;
     gap: 450px;
@@ -50,29 +58,21 @@ nav div a{
     flex-wrap: wrap;
     justify-content: center;
     background-color:transparent;
-    margin: 10px;
+    margin: 10px auto;
     gap: 5px;
-    height: 500px;
-    width:90%;
-    margin-left: 50px;
-   
+    height: 100%;
+    width:90%;   
 }
-body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    background-color: rgba(255, 166, 0, 0.925);
-   
-}
-@media sceen and (max-width:360px)
-{
-    body{
-        width: 150px;
-        height: 200px;
-        gap: 0px;
-    
+ 
+@media screen and (max-width:880px){
+    .milieu{
+      display: block;
     }
-}
+    header{
+        width: 400px;
+    }
+  }
+
 .bloc{margin: auto;
      border-radius: 10px;
     height: 450px;
@@ -100,7 +100,8 @@ body{
     background-color:white;
     width: 100%;
     display: flex;
-    justify-content: start;
+   
+ justify-content: start;
     flex-wrap: wrap;
     height: 48%;
      border-radius: 10px;
@@ -121,33 +122,29 @@ body{
     margin: 0 auto;
     display: flex;
     background-color:white;
-    width: 1275px;
-    height: 70px;
+    width: 100%;
+    height: 100%;
     justify-content: flex-start;
     text-align: right;
      column-gap: 5px;
+     align-items: center;
 }
 .haut .mi{
    width: 80%;
    display: flex;
    justify-content: center;
-   margin-top: 15px;
- 
 }
 .haut .ma{
     color: black;
      display: flex;
      margin: 0px auto;
      font-size: 17px;
-     margin-top: 15px;
      width: 60%;
-     margin-right: 20px;
  
 }
 .ma .connecter{
    height: 40px;
     width: 100%;
-    margin-right:-20px ;
     font-size: 15px;
      border: none;
     background-color: white;
@@ -186,12 +183,14 @@ body{
 
 }
 footer{
-    height:110px ;
+    position: relative;
+    height:20%;
     width: 79%; 
  margin: 5px auto;
+
 }
 footer img{
-    height: 110px;
+    height: 5Opx;
     margin: 0 auto;
     border-radius: 35px;
 }
@@ -201,8 +200,8 @@ footer img{
     gap: 10px;
 }
 .slide_Bas{
- overflow: auto;
- white-space: nowrap;
+ overflow: auto;/* comment gerer le depassement du contenu bloc */
+ white-space: nowrap;/* est utilisée pour décrire la façon dont les blancs sont gérés au sein de l'élément. */
 }
 .bas2{
     display: none;

@@ -11,11 +11,11 @@ function changesSlide(sens){
     document.getElementById("slide").src = slide[numero];
 
 }
-setInterval("changesSlide(1)",4000);
+setInterval("changesSlide(1)",800);
 
 const che1 =document.querySelectorAll(".che1");
 const che2 =document.querySelectorAll(".che2");
-che1.disabled =true;
+che1.disabled =true;/* renvoie une valeur de type Booléen: */
 
 const sliderBas=()=>{
     const img1 = document.querySelectorAll('.bas1');
